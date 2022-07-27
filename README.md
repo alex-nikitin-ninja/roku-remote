@@ -65,7 +65,6 @@ On my case i prepared the following mapping:
 ```
 
 Which on keyboard looks like on the picture below:
-
 <img src="layout.png" width="50%">
 
 
