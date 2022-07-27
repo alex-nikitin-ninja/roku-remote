@@ -29,7 +29,8 @@ After looking into web version I decided to dig into protocol documentation.
 ## How it works
 
 Once you connect your TV to home network (e.g. through WIFI) you should be able
-to query it via `curl` using IP address dedicated to your TV.
+to query it via `curl` using IP address dedicated to your TV. Look at your
+router clients list to identify TV's IP address.
 
 ## Goal
 
