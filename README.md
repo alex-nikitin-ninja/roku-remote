@@ -1,5 +1,18 @@
 # Roku Remote Script
 
+## tl;dr
+
+```bash
+./roku.sh <ip of your TV device>
+```
+
+Example:
+```bash
+./roku.sh 192.168.0.223
+```
+
+Then follow on screen instructions
+
 ## Intro/Backstory
 
 I have a Roku TV for pretty long time and was looking for a way to control my TV
@@ -65,6 +78,7 @@ On my case i prepared the following mapping:
 ```
 
 Which on keyboard looks like on the picture below:
+
 <img src="layout.png" width="50%">
 
 
