@@ -24,7 +24,7 @@ from the browser.
 
 After looking into web version I decided to dig into protocol documentation.
 
-[Roku Remote protocol docs](https://developer.roku.com/docs/developer-program/debugging/external-control-api.md)
+[Roku Remote Protocol Docs](https://developer.roku.com/docs/developer-program/debugging/external-control-api.md)
 
 ## How it works
 
