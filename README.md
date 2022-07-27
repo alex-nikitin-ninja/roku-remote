@@ -66,6 +66,6 @@ On my case i prepared the following mapping:
 
 Which on keyboard looks like on the picture below:
 
-![layout.png](layout.png=300x300)
+<img src="layout.png" width="300">
 
 
