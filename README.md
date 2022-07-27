@@ -81,4 +81,17 @@ Which on keyboard looks like on the picture below:
 
 <img src="layout.png" width="50%">
 
+## The script
 
+```bash
+./roku.sh <ip of your TV device>
+```
+
+Example:
+```bash
+./roku.sh 192.168.0.223
+```
+
+Enjoy.
+
+😃 🐧
