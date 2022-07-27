@@ -1,6 +1,6 @@
-# Roku remote script
+# Roku Remote Script
 
-## intro/backstory
+## Intro/Backstory
 
 I have a Roku TV for pretty long time and was looking for a way to control my TV
 from my PC with linux onboard.
@@ -11,8 +11,30 @@ from the browser.
 
 After looking into web version I decided to dig into protocol documentation.
 
-[link](link)
+[Roku Remote protocol docs](https://developer.roku.com/docs/developer-program/debugging/external-control-api.md)
 
+## How it works
 
-https://developer.roku.com/docs/developer-program/debugging/external-control-api.md#keypress-key-values
+Once you connect your TV to home network (e.g. through WIFI) you should be able
+to query it via `curl` using IP address dedicated to your TV.
+
+## Goal
+
+My goal was to be able to replicate remote jeys with shell script so i can
+control sound level, input, arrows from console.
+
+I went into this section of documentation:
+[keypress-key-values](https://developer.roku.com/docs/developer-program/debugging/external-control-api.md#keypress-key-values)
+and prepared a script which takes an IP address of your TV, reads keyboard input
+and sends those keys mapped to TV commands, similar to how native remote control
+works.
+
+## Results
+
+So in order to send keys we basically do POST requests with empty body to your
+device:
+
+```bash
+$ curl -d '' "http://<your tv ip address>:8060/keypress/Lit_r"
+```
 
