@@ -16,7 +16,7 @@ Then follow on screen instructions
 ## Intro/Backstory
 
 I have a Roku TV for pretty long time and was looking for a way to control my TV
-from my PC with linux PC.
+from my PC with linux onboard.
 
 Basically i was able to download android remote app and linux control app on
 electron, they also have a web version which allows you to conrol your smart TV
