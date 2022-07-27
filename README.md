@@ -66,6 +66,6 @@ On my case i prepared the following mapping:
 
 Which on keyboard looks like on the picture below:
 
-[[layout.png|width=300px]]
+![](layout.png|width=300px)
 
 
