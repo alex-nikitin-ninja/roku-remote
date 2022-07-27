@@ -34,16 +34,16 @@ router clients list to identify TV's IP address.
 
 ## Goal
 
-My goal was to be able to replicate remote jeys with shell script so i can
-control sound level, input, arrows from console.
+My goal was to be able to replicate remote keys with shell script so i can
+control sound level, input source, and arrows from bash/terminal console.
 
 I went into this section of documentation:
 
 [keypress-key-values](https://developer.roku.com/docs/developer-program/debugging/external-control-api.md#keypress-key-values)
 
 and prepared a script which takes an IP address of your TV, reads keyboard input
-and sends those keys mapped to TV commands, similar to how native remote control
-works.
+and sends those keys mapped to TV commands, similar to how native (IR) remote
+control works.
 
 ## Results
 
